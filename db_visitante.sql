@@ -40,17 +40,6 @@ CREATE TABLE `tb_endereco` (
   `id_test` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
---
--- Extraindo dados da tabela `tb_endereco`
---
-
-INSERT INTO `tb_endereco` (`id_end`, `rua`, `bairro`, `num_casa`, `cidade`, `uf`, `cep`, `ibge`, `dono_resid`, `id_test`) VALUES
-(1, 'Rua Alfem Ferreira de Oliveira', 'São Benedito', '11', 'Quatis', 'RJ', '27.430-060', 3304128, '1', 0),
-(2, '22222222222222', '2222222222', '22', '222', '2222', '22.222-222', 22222222, '2', 0),
-(3, 'Rua Alfem Ferreira de Oliveira', 'São Benedito', '11', 'Quatis', 'RJ', '27.430-060', 3304128, '1', 0),
-(4, 'Rua Alfem Ferreira de Oliveira', 'São Benedito', '11', 'Quatis', 'RJ', '27.430-060', 3304128, '1', 0),
-(5, 'Rua da Aman', 'Castelo Branco', '20', 'Resende', 'RJ', '27.536-280', 3304201, '1', 0),
-(6, 'Rua Alfem Ferreira de Oliveira', 'São Benedito', '11', 'Quatis', 'RJ', '27.430-060', 3304128, '1', 0);
 
 -- --------------------------------------------------------
 
@@ -70,14 +59,6 @@ CREATE TABLE `tb_endereco_visitante` (
   `dono_resid` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
---
--- Extraindo dados da tabela `tb_endereco_visitante`
---
-
-INSERT INTO `tb_endereco_visitante` (`id_end`, `rua`, `bairro`, `num_casa`, `cidade`, `uf`, `cep`, `ibge`, `dono_resid`) VALUES
-(1, 'Rua Alfem Ferreira de Oliveira', 'São Benedito', '11', 'Quatis', 'RJ', '27.430-060', 3304128, '1'),
-(2, '22222222222222', '2222222222', '22', '222', '2222', '22.222-222', 22222222, '2'),
-(3, 'Rua ainda não Informada', 'Bairro ainda não Informada', '00', 'Não Consta', 'Não Consta', '000000000', 0, '3');
 
 -- --------------------------------------------------------
 
