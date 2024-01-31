@@ -160,7 +160,7 @@ marca.onchange = () => {
 //     var confirmar = confirm("Tem certeza que deseja excluir o registro selecionado?");
 
 //     if (confirmar) {
-//         const dados = await fetch("apagar2.php?id=" + id);
+//         const dados = await fetch("apagar.php?id=" + id);
 //         const resposta = await dados.json();
 //         //console.log(resposta);
 

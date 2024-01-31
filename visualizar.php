@@ -252,16 +252,22 @@ $id = filter_input(INPUT_GET, 'id', FILTER_SANITIZE_NUMBER_INT);
                     </div><!-- FIM DO PREENCHEMENTO DOS DADOS DO CARRO -->
 
                     <div class="input-grup justify-content-center">
+                       
                         <div class="input-box">
-                            <input disabled type="submit" id='<?php echo $id?>'  name="SendEditCont" value="Salvar"
-                                class="btn btn-success btn-sm botao2">
-                                </div>
+                            <button disabled id="myButton3" type="submit" id='<?php echo $id?>'  name="SendEditCont" value="Salvar"
+                                class="btn btn-success btn-sm botao2 bt">Salvar</button>
+                        </div>
+
+                        <!-- <div class="input-box">
+                        <input disabled id="myButton3" type="button" id='<?php //echo $id?>'  name="deleteCad" value="Deletar"
+                        onclick='apagarUsuario(<?php //echo "$id"?>)' class="btn btn-danger btn-sm botao2 bt">
+                        </div> -->
 
                         <div class="input-box">
-
-                            <button id="myButton" type="button" value="Voltar" onclick="myFunction()"
+                            <button id="myButton" type="button" value="Editar" onclick="myFunction()"
                                 class="btn btn-primary btn-sm botao2">Editar</button>
                         </div>
+
                         <div class="input-box">
 
                             <a href="lista_visitante.php"><button id="myButton2" type="button" value="Voltar"
@@ -281,6 +287,12 @@ $id = filter_input(INPUT_GET, 'id', FILTER_SANITIZE_NUMBER_INT);
     var btn = document.getElementById("myButton");
     var cep = document.getElementById("cep").value;
 
+    // Se você deseja ocultar o botão quando estiver desativado
+    if (button.disabled) {
+            button.style.display = "none";
+        } else {
+            button.style.display = "inline-block"; // ou "block" dependendo do layout desejado
+        }
     function myFunction() { 
         if (btn.innerHTML == "Editar") {// removendo disabled
             $("input").removeAttr('disabled');

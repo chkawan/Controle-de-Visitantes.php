@@ -1,151 +1,211 @@
-/*----ESTRUTURA PRINCIPAL ----*/
-
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@charset "UTF-8";
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 80vh;
+}
+.home .seletor form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 100px;
+  color: #151515;
+}
+.home .seletor form .botao {
+  border-radius: 5px;
+  align-items: center;
+  padding: 2px;
+  font-size: auto;
+  margin-left: 10px;
+  width: 100px;
+}
+.home .seletor form label {
+  font-size: 17px !important;
+}
+.home .seletor form input {
+  margin-left: 10px;
+  margin-right: 20px;
+  border-radius: 5px;
+  width: 125px !important;
+}
+.home .seletor form input, .home .seletor form .botao {
+  height: 35px !important;
+}
+.home .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 0 auto;
+}
+.home .container .box-control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 2px;
+  border: 1px solid #1f1f1f;
+  padding: 15px;
+  margin: 10px;
+  background-color: #ffffff;
+  opacity: 90%;
+  width: 300px;
+  height: 300px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.home .container .box-control .red {
+  color: rgb(255, 0, 0) !important;
+}
+.home .container .box-control .green {
+  color: rgb(17, 130, 17) !important;
+}
+.home .container .box-control .title {
+  font-size: 1.5rem;
+  margin: 10px;
+}
+.home .container .box-control .valores {
+  font-size: 2.5rem;
+  margin: 10px;
 }
 
-html,
-body {
-    height: 100%;
-   
-}
-.btnNone {
-    color: rgb(17, 4, 26);
-    background: #ccc;
-  }
-  .btnNone:focus {
-    color: rgb(17, 4, 26);
-    background: #ccc;
-    border-radius: #ccc;
-  } 
-button:disabled {
-    /* background: #ccc !important; */
-    border-color: #ccc !important;
-    color: #ccc !important;
-  }
-
-input, select{
-    padding: 5px !important;
-}
-label{
-   font-size:  0.8rem !important;
-}
-.container{
-    padding: 0px;
-}
-
-
-
-/*---- FIM DA ESTRUTURA PRINCIPAL ----*/
-
-/*-------------------------------------------------------------*/
-
-/*---- inicio do TOPO  ----*/
 .top {
-    height: 60px;
-    width: 100%;
-    /* background-color: rgb(12, 12, 17); */
+  height: 60px;
+  width: 100%;
 }
 
+header {
+  background: #1f1f1f !important;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 20px 60px;
+}
+
+.nav-link.active, .navbar-brand {
+  color: #986dff !important;
+}
+
+.navbar-brand:hover {
+  color: #986dff !important;
+}
 
 /*---- inicio do MENU  ----*/
-
 .dropdown:hover .dropdown-menu {
-    /*--- PARA O SUBMENU FICAR MAIS PROXIMO --*/
-    display: block;
-    margin-top: -1px;
+  /*--- PARA O SUBMENU FICAR MAIS PROXIMO --*/
+  display: block;
+  margin-top: -1px;
+  color: #986dff;
 }
 
-
-.texto {
-    /*EFEITO INLINE DO TEXTO DO MENNU */
-    background-image:
-        linear-gradient(transparent 0%,
-            transparent 90%,
-            rgb(56, 43, 43) 90%,
-            rgb(117, 101, 101) 100%);
-    background-repeat: no-repeat;
-    background-size: 0 100%;
-    background-position-x: right;
-
-    transition: background-size 500ms;
+.nav-link {
+  /*EFEITO INLINE DO TEXTO DO MENNU */
+  background-image: linear-gradient(transparent 0%, transparent 98%, rgb(255, 255, 255) 90%, #986dff 100%);
+  background-repeat: no-repeat;
+  background-size: 0 80%;
+  background-position-x: right;
+  color: #986dff;
+  transition: background-size 500ms;
 }
 
-.texto:hover {
-    /*EFEITO INLINE DO TEXTO DO MENNU */
-    background-size: 100% 100%;
-    background-position-x: left;
+.nav-link:hover {
+  /*EFEITO INLINE DO TEXTO DO MENNU */
+  background-size: 100% 80%;
+  background-position-x: left;
+  color: #986dff;
 }
 
 /*---- FIM MENU  ----*/
 /*---- FIM TOPO  ----*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+html,
+body {
+  height: 100%;
+  background: #ffffff;
+}
+
+.btnNone {
+  color: rgb(17, 4, 26);
+  background: #ccc;
+}
+
+.btnNone:focus {
+  color: rgb(17, 4, 26);
+  background: #ccc;
+  border-radius: #ccc;
+}
+
+#myButton3:disabled {
+  /* background: #ccc !important; */
+  border-color: #ccc !important;
+  color: #ccc !important;
+  display: none;
+}
+
+input, select {
+  padding: 5px !important;
+}
+
+label {
+  font-size: 0.8rem !important;
+}
+
+.container {
+  padding: 0px;
+}
+
+/*---- FIM DA ESTRUTURA PRINCIPAL ----*/
 /*-------------------------------------------------------------*/
-
+/*-------------------------------------------------------------*/
 /*---- MAIN  ----*/
 main { /*centralizada no meio */
-    margin-left: auto;
-    margin-right: auto;
-    padding: 5px;
-    
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
 }
 
 /*---- FIM MAIN  ----*/
-
 /*-------------------------------------------------------------*/
-
 /*---- FORMULARIO  ----*/
-
 .form-sigin-heading {
-    font-size: 30px;
-    margin: 5px;
+  font-size: 30px;
+  margin: 5px;
 }
+
 /*---- FIM FORMULARIO  ----*/
-
-/*-------------------------------------------------------------*/
-
-.home {/*----------- PAGINA DE HOME ---------------*/
-    height: auto;
-    width: 50%;
-    margin: auto;
-    margin-top: 5%;
-    overflow: hidden;
-    
-
-}/*----------- FIM DA PAGINA DE HOME ---------------*/
-
-/*-------------------------------------------------------------*/
-
-.cadVisitante {/*----------- PAGINA DE CADASTRO DOS VISITANTES ---------------*/
-    height: auto;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    padding: 1px;
-    border: 0.5px solid rgba(148, 146, 146, 0.849);
-    border-radius: 2px 2px;
-    
+.cadVisitante { /*----------- PAGINA DE CADASTRO DOS VISITANTES ---------------*/
+  height: auto;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding: 1px;
+  border: 0.5px solid rgba(148, 146, 146, 0.849);
+  border-radius: 2px 2px;
 }
 
-.cadVisitante .input-grup { 
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0.1rem 0;
-    float: center;    
-    justify-content: center;
-    margin-bottom: 5%;
-    
+.cadVisitante .input-grup {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.1rem 0;
+  float: center;
+  justify-content: center;
+  margin-bottom: 5%;
 }
 
 .cadVisitante .input-box {
-    display: flex;
-    flex-direction: column;
-    margin-left: 5px;
-
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
 }
 
 /* .cadVisitante .botao {
@@ -155,118 +215,112 @@ main { /*centralizada no meio */
     margin-bottom: 5px; 
     padding: 3px !important;
     justify-content: center !important;
- 
+
 }----------- FIM DA PAGINA DE CADASTRO DOS VISITANTES --------------- */
-
 /*-------------------------------------------------------------*/
-
-.cadVeiculo {/*----------- PAGINA DE CADASTRO DOS VEICULO ---------------*/
-    height: auto;
-    width: 40%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    padding: 1px;
-    border: 0.5px solid rgba(148, 146, 146, 0.849);
-    border-radius: 2px 2px;
-    
-}
-.cadVeiculo .input-grup { 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 5%;
+.cadVeiculo { /*----------- PAGINA DE CADASTRO DOS VEICULO ---------------*/
+  height: auto;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding: 1px;
+  border: 0.5px solid rgba(148, 146, 146, 0.849);
+  border-radius: 2px 2px;
 }
 
-.cadVeiculo .input-box{
-    display: flex;
-    flex-direction: column;
-    margin-left: 5px;
+.cadVeiculo .input-grup {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+.cadVeiculo .input-box {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
 }
 
 /*----------- FIM DA PAGINA DE CADASTRO DOS VEICULO ---------------*/
-
 /*-------------------------------------------------------------*/
-
-.listaVis {/*----------- PAGINA DE LISTAR VISITANTES + DATATABLE ---------------*/
-    
-    height: auto;
-    width: 98%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
+.listaVis { /*----------- PAGINA DE LISTAR VISITANTES + DATATABLE ---------------*/
+  height: auto;
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
 }
 
-.listaVis th,td {/*-- colunas  datatable--*/
-    white-space: nowrap;
+.listaVis th, td { /*-- colunas  datatable--*/
+  white-space: nowrap;
 }
 
-.listaVis div.ColVis {/*-- botão clovis--*/
-    float: left;
+.listaVis div.ColVis { /*-- botão clovis--*/
+  float: left;
 }
-
 
 div.ColVis {
-    float: left;
+  float: left;
 }
+
 div.dataTables_wrapper div.dataTables_length select {
-    width: 60px;
-}/*----------- FIM DA PAGINA DE LISTAR VISITANTES + DATATABLE ---------------*/
-
+  width: 60px;
+} /*----------- FIM DA PAGINA DE LISTAR VISITANTES + DATATABLE ---------------*/
 /*-------------------------------------------------------------*/
-
-.regVis {/*----------- PAGINA DE REGISTRAR ENTRADA ---------------*/  
-    height: auto;
-    margin: auto;
-    width:74%;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    border: 0.5px solid rgba(148, 146, 146, 0.849);
-    border-radius: 2px 2px 2px 2px;
-    padding: 0;
-  
+.regVis { /*----------- PAGINA DE REGISTRAR ENTRADA ---------------*/
+  height: auto;
+  margin: auto;
+  width: 74%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  border: 0.5px solid rgba(148, 146, 146, 0.849);
+  border-radius: 2px 2px 2px 2px;
+  padding: 0;
 }
 
-.regVis .selectDiv{
-    width: 10rem;
-} 
-.regVis .selectDiv2{
-    width: 31.5rem;
-} 
-.regVis .input-grup { 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: start;
-    padding:2px;
-    margin-left:0;
+.regVis .selectDiv {
+  width: 10rem;
 }
-.regVis .input-box{
-    display: flex;
+
+.regVis .selectDiv2 {
+  width: 31.5rem;
 }
+
+.regVis .input-grup {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  padding: 2px;
+  margin-left: 0;
+}
+
+.regVis .input-box {
+  display: flex;
+}
+
 .regVis .colEnd, .colCar, .colDes, .colPessoal {
-    /* border: 1px solid rgb(175, 41, 41); */
-    padding: 0;
-    margin-left: 4px !important;
-    margin-right:4px !important;
+  /* border: 1px solid rgb(175, 41, 41); */
+  padding: 0;
+  margin-left: 4px !important;
+  margin-right: 4px !important;
 }
 
 .regVis .colBtn {
-width: 7.5rem;
-    text-align: center;
-    padding: 0;
-    
+  width: 7.5rem;
+  text-align: center;
+  padding: 0;
 }
 
-.regVis .botao{
-    margin:auto;
-    margin-bottom: 0px;
-    width: 100%;
-    height: 65%;
+.regVis .botao {
+  margin: auto;
+  margin-bottom: 0px;
+  width: 100%;
+  height: 65%;
 }
+
 /*-----------  FIM DA PAGINA DE REGISTRAR ENTRADA ---------------*/
-
 /*-------------------------------------------------------------*/
-
 /*
 .regSai {----------- PAGINA DE REGISTRAR SAIDADA --------------- 
     height: auto;
@@ -294,51 +348,54 @@ width: 7.5rem;
 .regSai .botao {
     margin-top: 10px;
     margin-bottom: 10px;
-    
+
 } 
 
 /*-----------  FIM DA PAGINA DE REGISTRAR SAIDA ---------------*/
-
-.ediVis {/*----------- PAGINA DE VISUALIZAR E EDITAR - CADASTRO DOS VISITANTES ---------------*/
-    height: auto;
-    width: 55%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    padding: 5px;
-    border: 0.5px solid rgba(148, 146, 146, 0.849);
-    border-radius: 2px 2px
+.ediVis { /*----------- PAGINA DE VISUALIZAR E EDITAR - CADASTRO DOS VISITANTES ---------------*/
+  height: auto;
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding: 5px;
+  border: 0.5px solid rgba(148, 146, 146, 0.849);
+  border-radius: 2px 2px;
 }
 
-.ediVis .input-grup { 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 0.1rem 0;
-    
+.ediVis .input-grup {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0.1rem 0;
 }
 
 .ediVis .input-box {
-    display: flex;
-    flex-direction: column;
-    margin: 2px;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin: 2px;
+  justify-content: center;
 }
 
-.ediVis input[type='number']{
-    width: 6rem;
-} 
-.selectDiv{
-    width: 6.5rem;
-} 
-.selectDiv2{
-    width: 20rem;
-} 
-.ediVis input[type='submit'], input[type='buttom'], .botao2{
-    width: 14rem !important;
-    margin-top: 1rem;
-} 
-.ediVis .cpf{
-    background-color:#e9ecef;
+.ediVis input[type=number] {
+  width: 6rem;
 }
-/*----------- AGINA DE VISUALIZAR E EDITAR - CADASTRO DOS VISITANTES ---------------*/
+
+.selectDiv {
+  width: 6.5rem;
+}
+
+.selectDiv2 {
+  width: 20rem;
+}
+
+.ediVis input[type=submit], input[type=buttom], .botao2 {
+  width: 14rem !important;
+  margin-top: 1rem;
+}
+
+.ediVis .cpf {
+  background-color: #e9ecef;
+}
+
+/*----------- AGINA DE VISUALIZAR E EDITAR - CADASTRO DOS VISITANTES ---------------*//*# sourceMappingURL=style.css.map */

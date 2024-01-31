@@ -1,0 +1,13 @@
+TRUNCATE TABLE tb_visitas;
+TRUNCATE TABLE tb_visitantes;
+TRUNCATE TABLE tb_veiculo_visitante;
+TRUNCATE TABLE tb_veiculo;
+TRUNCATE TABLE tb_endereco_visitante;
+TRUNCATE TABLE tb_endereco;
+
+ALTER TABLE `tb_visitas` AUTO_INCREMENT=1;
+ALTER TABLE `tb_visitantes` AUTO_INCREMENT=1;
+ALTER TABLE `tb_veiculo_visitante` AUTO_INCREMENT=1;
+ALTER TABLE `tb_veiculo` AUTO_INCREMENT=1;
+ALTER TABLE `tb_endereco_visitante` AUTO_INCREMENT=1;
+ALTER TABLE `tb_endereco` AUTO_INCREMENT=1;

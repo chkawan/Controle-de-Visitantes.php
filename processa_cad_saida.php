@@ -25,7 +25,7 @@ $total_linha = $consulta2->rowCount();
     
 if($total_linha == 1){
 var_dump($saida, $saidaHr);
-      $query_visitante = ("UPDATE tb_visitas SET saidaHr='$saidaHr' WHERE id_visitas=$id ");
+      $query_visitante = ("UPDATE tb_visitas SET saidaHr='$saidaHr', saida='$saida' WHERE id_visitas=$id ");
       $cad_visitante = $conn->prepare($query_visitante);
      // $cad_visitante->bindParam(':saida', $saida);
      //$cad_visitante->bindParam(':saidaHr', $saidaHr);

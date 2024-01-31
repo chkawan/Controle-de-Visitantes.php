@@ -1,7 +1,7 @@
 <!--------------------------------------------------- INICIO DO MENU ------------------------------------------>
-<div><header class="top">
-				<nav class="navbar fixed-top navbar-expand-lg border-bottom navbar-light bg-light">
-					<a class="navbar-brand " href="home.php">Controle de Visitantes</a>
+<header class="top">
+				<nav class="navbar navbar-expand-lg ">
+					<a class="navbar-brand" href="home.php">Controle de Visitantes</a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button> 
@@ -38,5 +38,5 @@
 				</div>
 				</nav>
 		</header>
-</div>
+
 <!--------------------------------------------------- FIM DO MENU ------------------------------------------>
