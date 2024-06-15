@@ -34,4 +34,4 @@ Para o desenvolvimento deste site utilizei as seguintes tecnologias:
 
 ---
 
-## 🔗 <a href="https://drive.google.com/file/d/10C8b3vhSLloeq9pLRqBp5caiIHTCPK4i/view?usp=sharing" rel="noopener" target="_blank>VIDEO DO PROJETO</a>
+## 🔗 <a href="https://drive.google.com/file/d/10C8b3vhSLloeq9pLRqBp5caiIHTCPK4i/view?usp=sharing" rel="noopener" target="_blank">VIDEO DO PROJETO</a>
