@@ -33,3 +33,6 @@ Para o desenvolvimento deste site utilizei as seguintes tecnologias:
 - Mysql;
 
 ---
+
+## 🔗 <a href="https://drive.google.com/file/d/10C8b3vhSLloeq9pLRqBp5caiIHTCPK4i/view?usp=sharing">VIDEO DO PROJETO</a>
+https://drive.google.com/file/d/10C8b3vhSLloeq9pLRqBp5caiIHTCPK4i/view?usp=sharing
