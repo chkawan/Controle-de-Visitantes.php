@@ -1,5 +1,5 @@
 <h1 align="center">
-  💻<br>Projeto - Controle de Visitantes - Christopher Kawan
+  💻<br>Controle de Visitantes - Christopher Kawan
 </h1>
 
 ## 🎯 Objetivo do Sistema
