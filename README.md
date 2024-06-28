@@ -31,20 +31,25 @@ O site é composto por seis seções:
 
 ## 💼 Tecnologias Utilizadas
 
-Para o desenvolvimento deste site utilizei as seguintes tecnologias:
+### Backend
+- **PHP:** Utilizado no backend para processar requisições, acessar o banco de dados, e executar a lógica do sistema.
+- **API de Busca de CEP:** Utilizada para buscar automaticamente os dados de endereço ao informar o CEP no cadastro de visitantes e veículos.
 
-- HTML
-- PHP
-- Sass
-- JavaScript
-- Bootstrap
-- Datatable
-- MySQL
+### Frontend
+- **HTML:** Utilizado para estruturar o conteúdo das páginas.
+- **Sass:** Utilizado para escrever estilos CSS de maneira mais eficiente e organizada.
+- **JavaScript:** Utilizado no frontend para adicionar interatividade às páginas, realizar validações e chamadas assíncronas.
+- **Bootstrap:** Utilizado para estilização das páginas e componentes, garantindo responsividade e um design consistente.
+- **Datatable:** Utilizado para criar tabelas dinâmicas e interativas, facilitando a visualização e manipulação dos dados.
+
+### Banco de Dados
+- **MySQL:** Utilizado como banco de dados para armazenar todas as informações de registros de entrada, saída, visitantes, e veículos.
 
 ## 🚀 Motivações
 
 Como desenvolvedor júnior, este projeto foi uma oportunidade para praticar minhas habilidades de desenvolvimento e aprender novas tecnologias. Foi uma experiência valiosa para entender melhor o fluxo de trabalho completo de desenvolvimento de software, desde a concepção até a implementação e testes.
 
 ---
+
 
 ## <a href="https://drive.google.com/file/d/10C8b3vhSLloeq9pLRqBp5caiIHTCPK4i/view?usp=sharing" rel="noopener" target="_blank">VIDEO DO PROJETO</a>
