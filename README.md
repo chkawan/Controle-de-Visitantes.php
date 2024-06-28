@@ -2,35 +2,46 @@
   💻<br>Projeto - Controle de Visitantes - Christopher Kawan
 </h1>
 
+## 🎯 Objetivo do Sistema
 
+**Este projeto foi desenvolvido para ter o controle de quem entra e sai da Organização Militar (OM). A aplicação permite registrar e monitorar as entradas e saídas, registrando detalhes como o horário de entrada, o destino dentro da OM e o horário de saída.**
 
-<!-- <h4 align="center"><a href="https://ch-kawan.vercel.app/">Clique para visitar o projeto</a></h4> -->
+## ⚡ Funcionalidades do Sistema
+
+- Registro de Entradas: Permite ao usuário registrar a entrada de pessoas na OM, incluindo o horário de entrada e o destino.
+- Registro de Saídas: Permite registrar o horário de saída das pessoas.
+- Consulta de Registros: Possibilita a consulta de quem entrou e saiu da OM, juntamente com os horários e destinos.
+- Gerenciamento de Dados: Editar e remover registros de entrada e saída conforme necessário.
 
 ## 📚 Seções
 
 O site é composto por seis seções:
 
-- **Inicio:** Nele temos um resumo de quantidade de visitas, visitantes, visitas pendentes e visitas realizadas;
+- **Início:**
+  - Resumo de quantidade de visitas, visitantes, visitas pendentes e visitas realizadas.
 - **Visitas:**
-  - **Lista Vistas:** Apresenta todas as visitas registradas;
-  - **Registra Visita:** Exibe um formulário para o cadastro da visita, mesmo nao tendo feito um cadastro previo do visitante;
-- **Cadastro:** Exibe através de cards os diferentes serviços em que possuo conhecimentos;
-  - **Lista de Visitantes:** Nele apresentamos todos os visitantes cadastrados;
-  - **Cadastro de Visitante:** Exibe um formulário para fazer um breve cadastro do visitante;
-  - **Cadastro de Veículos:** Exibe um formulário para fazer cadastro de veículos que não existem no banco de dados;
----
+  - **Lista de Visitas:** Apresenta todas as visitas registradas.
+  - **Registrar Visita:** Exibe um formulário para o cadastro da visita, mesmo sem um cadastro prévio do visitante.
+- **Cadastro:**
+  - **Lista de Visitantes:** Apresenta todos os visitantes cadastrados.
+  - **Cadastro de Visitante:** Exibe um formulário para fazer um breve cadastro do visitante.
+  - **Cadastro de Veículos:** Exibe um formulário para fazer cadastro de veículos que não existem no banco de dados.
 
-## 💼 Tecnologias utilizadas
+## 💼 Tecnologias Utilizadas
 
 Para o desenvolvimento deste site utilizei as seguintes tecnologias:
 
-- HTML;
-- PHP;
-- Sass;
-- JavaScript;
-- Bootstrap;
-- Datatable;
-- Mysql;
+- HTML
+- PHP
+- Sass
+- JavaScript
+- Bootstrap
+- Datatable
+- MySQL
+
+## 🚀 Motivações
+
+Como desenvolvedor júnior, este projeto foi uma oportunidade para praticar minhas habilidades de desenvolvimento e aprender novas tecnologias. Foi uma experiência valiosa para entender melhor o fluxo de trabalho completo de desenvolvimento de software, desde a concepção até a implementação e testes.
 
 ---
 
