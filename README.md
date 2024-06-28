@@ -8,10 +8,12 @@
 
 ## ⚡ Funcionalidades do Sistema
 
-- Registro de Entradas: Permite ao usuário registrar a entrada de pessoas na OM, incluindo o horário de entrada e o destino.
-- Registro de Saídas: Permite registrar o horário de saída das pessoas.
-- Consulta de Registros: Possibilita a consulta de quem entrou e saiu da OM, juntamente com os horários e destinos.
-- Gerenciamento de Dados: Editar e remover registros de entrada e saída conforme necessário.
+- **Registro de Entradas:** Permite ao usuário registrar a entrada de pessoas na OM, incluindo o horário de entrada e o destino.
+- **Registro de Saídas:** Permite registrar o horário de saída das pessoas.
+- **Consulta de Registros:** Possibilita a consulta de quem entrou e saiu da OM, juntamente com os horários e destinos.
+- **Gerenciamento de Dados:** Editar e remover registros de entrada e saída conforme necessário.
+- **Auto preenchimento:** Facilita o preenchimento de formulários utilizando dados previamente armazenados.
+- **API de Busca de CEP:** Integração com uma API para busca automática de CEP, preenchendo automaticamente os dados de endereço.
 
 ## 📚 Seções
 
